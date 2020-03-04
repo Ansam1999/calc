@@ -7,8 +7,8 @@ class addTest {
 	@Test
 	void test() {
 		Add obj = new Add();
-		int res = obj.add(2, 5);
-		assertEquals(7,res);
+		int res = obj.add(3, 5);
+		assertEquals(8,res);
 	}
 
 }
